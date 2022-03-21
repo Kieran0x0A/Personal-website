@@ -1,0 +1,72 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=PT+Sans&family=Permanent+Marker&display=swap');
+
+
+/* Main body styling */
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    background-image: linear-gradient(to right, black , #1f1f1f);
+    color: white;
+}
+
+
+/* navigation bar styling */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #151515;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar li a:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+/* Skills section styling */
+.about {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 120px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px;
+    width: 750px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(16, 16, 16);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Hyperlink styling */
+a {
+    color: white;
+}
+
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #151515;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
